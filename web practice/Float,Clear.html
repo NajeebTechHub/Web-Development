@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear</title>
+    <style>
+        .container{
+            width: 900px;
+            border: 3px solid red;
+            background-color: rgb(247, 201, 201);
+            margin: 33px auto;
+        }
+        .item{
+            width: 446px;
+            border: 3px solid green;
+            background-color: rgb(188, 240, 188);
+            padding: 13px 3px;
+            margin: 13px 3px;
+        }
+        #fruit{
+            float: left;
+            width: 48%;
+        }
+        #computer{
+            float: left;
+            width: 48%;
+        }
+        #stationary{
+            clear: both;
+            width: 98%;
+        }
+        h1{
+            margin: auto;
+            width: 140px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <div id="fruit" class="item">
+            <h3>fruit</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit harum nesciunt laudantium quos dolorum voluptates. Quibusdam consequuntur odit exercitationem distinctio.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit harum nesciunt laudantium quos dolorum voluptates. Quibusdam consequuntur odit exercitationem distinctio.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit harum nesciunt laudantium quos dolorum voluptates. Quibusdam consequuntur odit exercitationem distinctio.</p>
+        </div>
+    </div>
+</body>
+</html>

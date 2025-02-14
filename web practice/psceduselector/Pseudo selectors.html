@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selectors</title>
+    <style>
+        .btn:hover{
+            cursor: pointer;
+            background-color: bisque;
+        }
+        a:visited{
+            color: #000;
+        }
+        a:active{
+            color: blue;
+        }
+        p{
+            width: 600px;
+            border: 2px solid red;
+            padding: 20px;
+            margin: 44px auto;
+        }
+        .btn{
+            display: flex;
+            justify-items: center;
+        }
+        input[type="text"]{
+            border: 3px solid green;
+        }
+        a[target="_self"]{
+            color: green;
+            font-size: 79px;
+        }
+        li:nth-child(4){
+            color: green;
+        }
+        li:nth-child(2n+0){
+            color: cyan;
+        }
+        li:nth-child(3n+3){
+            color: red;
+        }
+        li:nth-child(odd){
+            background-color: bisque;
+        }
+        li:nth-child(even){
+            background-color: rgb(18, 66, 50);
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text">
+    <input type="button">
+
+    <a href="https://www.google.com" target="_blank">google</a>
+    <a href="https://www.facebook.com" target="_self">facebook</a>
+
+
+    <h1 style="text-align: center;">Article</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum eveniet, dolorum commodi facilis repellat ex molestias esse illo rerum iusto. Vel eveniet aliquam quisquam, rem accusantium culpa vero voluptates hic laborum veritatis esse quas optio. Ab sit ipsam repellendus officia.<a href="https://www.facebook.com/">Read More</a></p>
+    
+    <button class="btn">Cotact Us</button>
+
+    <ul>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+        <li>list item</li>
+    </ul>
+</body>
+</html>

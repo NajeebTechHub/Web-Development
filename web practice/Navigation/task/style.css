@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+.nav{
+    border: 3px solid green;
+    background-color: aqua;
+    border-radius: 15px;
+    margin: 4px;
+}
+.nav ul{
+    overflow: auto;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+}
+.nav ul a{
+    text-decoration: none;
+    padding: 3px 3px;
+}
+.nav input{
+    position: absolute;
+    left: 80%;
+    border-radius: 30px;
+    padding-left: 10px;
+}
+.container{
+    float: left;
+    color: white;
+    width: 50%;
+}
+.item{
+    border: 3px solid green;
+    margin: 3px;
+}
+#title1 {
+    float: left;
+    width: 48%;
+}
+#title2 {
+    float: left;
+    width: 48%;
+}
+#title3 {
+    clear: left;
+    width: 98%;
+}
+.piccontainer{
+    float: left;
+    border: 3px solid grey;
+    width: 48%;
+    height: 330px;
+    position: absolute;
+    left: 50%;
+    background-image: url("first.jpg");
+    background-position: center;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            color: white;
+            background-color: black;
+        }
+        .navigation{
+            display: flex;
+            padding: 0px 20px;
+        }
+        li{
+            list-style: none;
+            padding: 20px 10px;
+
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 10px 150px;
+        }
+        header::before{
+            background: url('pic.jpg') no-repeat center center/cover;
+            content: '';
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.4;
+        }
+        h1{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul class="navigation">
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <section>
+        <h1>Welcome to Web Development</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere cumque quaerat eaque? Quos tenetur alias, culpa unde voluptatem ipsa dignissimos reprehenderit excepturi dolor error laudantium doloremque </p>
+    </section>
+</body>
+</html>

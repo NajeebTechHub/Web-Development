@@ -1,0 +1,25 @@
+.nav li{
+    list-style: none;
+    float: left;
+    margin: 8px;
+    padding: 3px 3px;
+}
+.nav{
+    
+    background-color: bisque;
+    margin: 5px;
+}
+.nav ul{
+    overflow: auto;
+}
+.nav li a{
+    text-decoration: none;
+    padding: 3px 3px;
+}
+.nav input{
+    position: absolute;
+    left: 80%;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 9px;
+}

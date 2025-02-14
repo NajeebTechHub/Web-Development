@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: 
+            'nabar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer'
+            ;
+            gap: 1rem;
+        }
+        #navbar{
+            background-color: aqua;
+            grid-area: navbar;
+        }
+        #section{
+            background-color: aqua;
+            grid-area: section;
+        }
+        #aside{
+            background-color: aqua;
+            grid-area: aside;
+        }
+        #footer{
+            background-color: aqua;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="navbar">This is navbar</div>
+    <div id="section">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sint quae aspernatur vel fugit. Voluptates dolorem laudantium perspiciatis maiores modi ipsam, distinctio consectetur quasi nisi fugiat ullam dolores ipsum, fugit facere atque dolore ab vel nostrum accusantium eos, rem veniam. Doloribus minima quis vitae autem tempora cupiditate asperiores ipsum qui sapiente ad commodi aspernatur voluptate, dolores odio nesciunt.</div>
+    <div id="aside">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti consequuntur quidem, dolorum commodi vitae porro totam sed dolores voluptate. Molestiae, nam.</div>
+    <div id="footer">this is footer</div>
+    </div>
+</body>
+</html>

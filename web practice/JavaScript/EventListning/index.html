@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is heading</h1>
+    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eos rerum adipisci, officiis ea quaerat, minus vitae alias ad ipsum non quidem labore omnis! Eveniet, placeat. Quia labore architecto aut recusandae deleniti ea, suscipit reiciendis reprehenderit aspernatur modi, rem ad illum! Aliquid, praesentium. Sit dolore molestias sed dolor, iste blanditiis ipsum dolorem doloribus! Aliquid libero neque placeat nam ea amet nihil doloremque, necessitatibus veniam totam dolores, maxime unde qui eveniet reiciendis sed illo sequi iste rerum officiis nostrum veritatis odit saepe? Voluptatum perspiciatis quis ullam hic autem, voluptatem repellat aperiam quo. A repellendus fuga dolor culpa excepturi optio, consequuntur officia. Dolorem omnis culpa libero at illo autem commodi eius error quam laudantium ab voluptatibus ut dignissimos, maxime assumenda numquam quod unde cupiditate molestias minima, hic magnam! Facere error cum dolorem delectus quas nobis omnis possimus officiis nihil aperiam dolores temporibus odio modi consectetur incidunt at totam, quibusdam qui deserunt, deleniti reprehenderit reiciendis minima porro! Totam eum sapiente, debitis, deserunt deleniti id aut non vero ullam excepturi, veritatis atque eligendi libero molestias ab laudantium. Autem molestiae excepturi, placeat est ut qui repellat expedita. Doloribus ab, sint consequuntur quos quod fuga dolore autem. Doloribus eius inventore delectus similique voluptates repudiandae harum impedit porro eligendi, sint exercitationem possimus quis adipisci maxime in dignissimos iure corporis sequi aut iste nostrum cumque atque. Debitis laudantium et officia.</p>
+    <button id="btn" onclick="hideShow()">Hide/Show</button>
+
+    <script>
+        function hideShow()
+        {
+            let para = document.getElementById('para');
+            if(para.style.display!= 'none')
+            {
+                para.style.display = 'none';
+            }
+            else{
+                para.style.display = 'block';
+            }
+        }
+
+        let para = document.getElementById('para');
+        para.addEventListener('mouseover', function run(){
+            console.log('You are on paragraph');
+        });
+        para.addEventListener('mouseout', function run(){
+            console.log('You are out from paragraph');
+        });
+        
+    </script>
+</body>
+</html>

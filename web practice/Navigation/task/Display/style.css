@@ -1,0 +1,23 @@
+header{
+    border: 3px solid green;
+    margin: auto;
+    width: 100%;
+}
+img{
+    width: 40px;
+    display: block;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    margin: 0;
+}
+.box{
+    border: 3px solid red;
+    margin: 3px;
+    padding: 4px;
+    display: inline-block;
+    width: 32%;
+    box-sizing: border-box;
+    
+}
